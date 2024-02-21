@@ -1,0 +1,321 @@
+@font-face {
+  font-family: 'inter';
+  src: url(/fontes/static/Inter-Black.ttf);
+}
+
+@font-face {
+  font-family: 'guerrilla';
+  src: url(/fontes/Protest_Guerrilla/ProtestGuerrilla-Regular.ttf);
+}
+
+
+
+/* HEADER */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Sen', sans-serif;
+}
+
+.interface {
+  max-width: 1450px;
+  margin: 0 auto;
+}
+
+body {
+  height: 100vh;
+  width: 99vh;
+}
+
+.menu-desktop {
+  display: inline-block;
+  padding: 0px;
+  margin-left: 400px;
+}
+
+header {
+  padding: 80px 3%;
+  
+}
+
+header>.interface {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 115px;
+  ;
+}
+
+header a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+header nav ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin-left: 670px;
+  
+}
+
+header nav ul li {
+  display: inline-block;
+  padding: 20px;
+  font-size: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.5s; 
+  font-family: guerrilla;
+  margin-left: 150px;
+}
+
+
+a:hover,
+a:focus {
+  border-color: white;
+}
+
+
+body {
+  background-color: #040E27;
+}
+
+.menu-desktop {
+  margin-right: 100px;
+  margin-bottom: 50px;
+}
+
+.menu-desktop ul li a {
+  display: inline-block;
+}
+
+.menu-desktop {
+  display: flex;
+  padding: 20;
+}
+
+.menu-desktop li {
+  margin-left: 150px;
+}
+
+.menu-desktop li a {
+  display: block;
+  padding: px;
+  font-family: inter;
+}
+
+span {
+  background-color: #041746;
+  color: black;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: guerrilla;
+  font-size: 40px;
+}
+
+h1 {
+  color: white;
+  font-family: guerrilla;
+  text-align: center;
+  font-size: 40px;
+}
+
+h2{
+  font-family: guerrilla;
+  color: white;
+  font-size: 38px;
+}
+
+
+
+
+
+
+/* MAIN */
+
+.container-pai {
+  display: flex;
+  width: 99vw;
+  height: 700px;
+}
+
+.imagem {
+  width: 500px;
+  height: auto;
+  padding: 40px;
+
+}
+
+.conteudo-direita {
+  flex: 2;
+  /* Ocupa 2 partes do espaço disponível */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: flex-end;
+  margin-left: 300px;
+}
+
+.imagem img {
+  max-width: 900px;
+  height: auto;
+  padding-left: 100px;
+}
+
+div p {
+  font-family: inter;
+  margin: 0;
+  padding: 10px;
+
+}
+
+.copiar{
+  margin: 25px;
+}
+
+.codificar,
+.descodificar,
+.copiar {
+  background-color: #041746;
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 100px;
+  align-items: center;
+  padding: 5px;
+  width: 200px;
+  height: 50px;
+}
+
+
+.codificar, .descodificar{
+  display: inline-block;
+  margin: 25px;
+  margin-left: 30px;
+}
+
+
+
+.container-filho3,
+.container-filho4 {
+  border: 100px #000E19 solid;
+  border-radius: 500px;
+  border-width: 80px;
+  margin-left: 80px;
+  margin-right: 100px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: end;
+}
+
+.container-filho2 {
+  color: white;
+  font-size: 13px;
+  font-family: inter;
+  margin-left: 360px;
+  padding: 10px;
+}
+
+.container-filho3,
+.container-filho4 {
+  color: #545454;
+  
+}
+
+.container-filho4,  
+.copiar{
+  display: inline-block;
+}
+
+.container-filho1{
+  margin-left: 30px;
+  padding-bottom:  0px;
+  
+}
+
+.copiar{
+  padding: 10
+}
+
+span2 {
+  background-image: linear-gradient(180deg, #9c32d6 0, #5f21ae 25%, #160d80 50%, #000052 75%, #00002d 100%);
+  color: black;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: jomhuria;
+  font-size: 60px;
+}
+
+input {
+  padding: 10px;
+  font-size: 13px;
+  font-family: inter;
+  width: 600px;
+  box-sizing: border-box;
+  background-color: #000E19;
+  border: none;
+  outline: none;
+  color: white;
+  overflow-y: auto;
+  margin: 0;
+  text-align:start
+}
+
+
+
+
+
+
+/* FOOTER */
+
+.fooster {
+  justify-content: center;
+  padding: 30px 4%;
+  background-color: #041746;
+  width: 99vw;
+  height: 220px;
+  align-items: center;
+}
+
+.contato {
+  text-align: center;
+  color: white;
+  font-family: inter;
+  font-size: 26px;
+
+}
+
+.texto {
+  text-align: center;
+  font-family: inter;
+  font-size: 14px;
+  color: white;
+  padding: 15px;
+
+}
+
+.container-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin-right: 1px;
+  width: 94vw;
+  height: 67px;
+}
+
+.container-links a {
+  margin-left: 30px;
+  font-size: 20px;
+}
